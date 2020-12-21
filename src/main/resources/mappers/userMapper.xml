@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.eat.dao.UserMapper">
+
+    <cache type="com.eat.util.RedisCache"></cache>
+
+    <!--添加用户的信息-->
+    <insert id="addUser"  >
+        INSERT INTO user
+        <trim prefix="(" suffix=")" prefixOverrides="," suffixOverrides=",">
+            user_phone ,user_pwd
+            <if test="id != null and id != ''">,id</if>
+            <if test="user_name != null and user_name != ''">,user_name</if>
+            <if test="user_img != null and user_img != ''">,user_img</if>
+            <if test="keyId != null and keyId != ''">,keyId</if>
+            <if test="publicKeyStr != null and publicKeyStr != ''">,publicKeyStr</if>
+            <if test="privateKeyStr != null and privateKeyStr != ''">,privateKeyStr</if>
+        </trim>
+        <trim prefix="VALUES (" suffix=")" prefixOverrides="," suffixOverrides=",">
+            #{user_phone} ,#{user_pwd}
+            <if test="id != null and id != ''">,#{id}</if>
+            <if test="user_name != null and user_name != ''">,#{user_name}</if>
+            <if test="user_img != null and user_img != ''">,#{user_img}</if>
+            <if test="keyId != null and keyId != ''">,#{keyId}</if>
+            <if test="publicKeyStr != null and publicKeyStr != ''">,#{publicKeyStr}</if>
+            <if test="privateKeyStr != null and privateKeyStr != ''">,#{privateKeyStr}</if>
+        </trim>
+    </insert>
+
+
+    <!--查询用户的信息-->
+    <select id="SelectUserByUser" resultType="com.eat.entity.User">
+        SELECT  * from  user where
+        <trim prefix="" suffix="" suffixOverrides="AND|OR" prefixOverrides="AND|OR">
+            <if test="id != null and id != ''">and  id  = #{id}</if>
+            <if test="user_name != null and user_name != ''">and  user_name  = #{user_name}</if>
+            <if test="user_phone != null and user_phone != ''">and  user_phone  = #{user_phone}</if>
+        </trim>
+    </select>
+
+    <!--修改用户的信息-->
+    <update id="UpdateUserByPhone">
+         UPDATE eat.user
+         <set>
+             <if test="user_name!= null and user_name != '' ">
+                 user_name = #{user_name},
+             </if>
+             <if test="user_img!= null and user_img != '' ">
+                 user_img = #{user_img},
+             </if>
+             <if test="keyId!= null and keyId != '' ">
+                 keyId = #{keyId},
+             </if>
+             <if test="publicKeyStr!= null and publicKeyStr != '' ">
+                 publicKeyStr = #{publicKeyStr},
+             </if>
+             <if test="privateKeyStr!= null and privateKeyStr != '' ">
+                 privateKeyStr = #{privateKeyStr},
+             </if>
+             <if test="user_pwd!= null and user_pwd != '' ">
+                 user_pwd = #{user_pwd},
+             </if>
+         </set>
+        WHERE user_phone = #{user_phone}
+    </update>
+
+    <!--修改用户的手机号-->
+    <update id="UpdateUserPhone">
+        UPDATE eat.user
+        SET user_phone = #{old_Phone},
+        WHERE user_phone = #{new_phone}
+    </update>
+
+
+
+
+</mapper>

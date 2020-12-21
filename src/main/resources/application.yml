@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    include: wx
+    active: dev
+  redis:
+    host: 49.234.73.99
+    database: 0
+    port: 5460
+    password: 17637945521Wzp
+
+
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml

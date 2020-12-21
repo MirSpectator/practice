@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.eat.dao.CommodityMapper">
+    <cache type="com.eat.util.RedisCache"></cache>
+
+       <!--查询商品菜单-->
+       <select id="selectCommodity" resultType="com.eat.entity.Commodity">
+         select  * from commodity
+       </select>
+       <!--添加新菜品，商品-->
+       <insert id="addCommodity">
+         INSERT INTO eat.commodity(commodity_img, commodity_title, commodity_price,
+          commodity_introduce, commodity_status)
+         VALUES (#{commodity_img}, #{commodity_title},
+         #{commodity_price}, #{commodity_introduce}, #{commodity_status})
+       </insert>
+
+       <!--修改商品 上下架-->
+       <update id="updateCommodity">
+         UPDATE eat.commodity
+         <set>
+             <trim prefixOverrides="," prefix="" suffixOverrides="," suffix="">
+                 <if test="commodity_img!= null and commodity_img != '' ">
+                     commodity_img = #{commodity_img},
+                 </if>
+                 <if test="commodity_title!= null and commodity_title != '' ">
+                     commodity_title = #{commodity_title},
+                 </if>
+                 <if test="commodity_price!= null and commodity_price != '' ">
+                     commodity_price = #{commodity_price},
+                 </if>
+                 <if test="commodity_introduce!= null and commodity_introduce != '' ">
+                     commodity_introduce = #{commodity_introduce},
+                 </if>
+                 <if test="commodity_status!= null and commodity_status != '' ">
+                     commodity_status = #{commodity_status},
+                 </if>
+             </trim>
+         </set>
+         WHERE commodity_id = #{commodity_id}
+       </update>
+</mapper>

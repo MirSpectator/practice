@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.eat.dao.SlideShowMapper">
+
+    <cache type="com.eat.util.RedisCache"></cache>
+
+    <insert id="addSildeShow"  >
+          INSERT INTO slideshow( slideshow_img,slideshow_src) VALUES
+          (#{slideshow_img},#{slideshow_src})
+    </insert>
+
+    <delete id="deleteSildeShow">
+        DELETE from  slideshow where slideshow_id = #{slideshow_id}
+    </delete>
+
+    <select id="selectSildeShow" resultType="com.eat.entity.SlideShow">
+        select * from slideshow
+    </select>
+</mapper>

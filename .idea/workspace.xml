@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7767371d-2751-477b-880f-0ca63199c4b9" name="Default Changelist" comment="第六次提交  2020/12/10  完成日志和异常的配置，但是异常还有待完善。继续加油">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/DmApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/DmApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/ao/loginAo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/ao/loginAo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/comom/MsgConst.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/comom/MsgConst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/comom/RspMsg.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/comom/RspMsg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MyCredentialsMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MyCredentialsMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MyFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MyFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MyRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MyRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MySession.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MySession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MySessionManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/MySessionManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/RedisConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/config/ShiroConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/CommentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/CommentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/CommodityMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/CommodityMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/OrderMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/OrderMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/ShoppingTrolleyMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/ShoppingTrolleyMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/SlideShowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/SlideShowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/Commodity.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/Commodity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/MyToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/MyToken.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/ShoppingTrolley.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/ShoppingTrolley.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/SlideShow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/SlideShow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/SlideShowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/SlideShowService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/impl/SlideShowServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/impl/SlideShowServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/ApplicationContextUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/ApplicationContextUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/JWTUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/JWTUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/JsonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/JsonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/RedisCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/RedisCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/RedisUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/RedisUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/interfaces/JWT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/interfaces/JWT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/interfaces/Redis.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/eat/util/interfaces/Redis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/eat/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eat/entity/Comment.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="eat" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ipS7PaTS7G9laN1G2mknMsJ4n8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1507799" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JAVA\eat\src\main\resources\log" />
+      <recent name="E:\JAVA\eat\src\main\java\com\eat\comom" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DmApplication">
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test" />
+      <module name="eat.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="eat [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="eat [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="init" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="eat [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="eat [wrapper]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="wrapper" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eat.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eat.DmApplication" />
+      <option name="ENABLE_JMX_AGENT" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Gradle.eat [war]" />
+        <item itemvalue="Gradle.eat [init]" />
+        <item itemvalue="Gradle.eat [build]" />
+        <item itemvalue="Gradle.eat [wrapper]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7767371d-2751-477b-880f-0ca63199c4b9" name="Default Changelist" comment="" />
+      <created>1602602872077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602602872077</updated>
+      <workItem from="1602602879533" duration="943000" />
+      <workItem from="1602603889043" duration="232000" />
+      <workItem from="1602604197810" duration="1872000" />
+      <workItem from="1602606100905" duration="641000" />
+      <workItem from="1602680747846" duration="38000" />
+      <workItem from="1602680789202" duration="73000" />
+      <workItem from="1602680984788" duration="143000" />
+      <workItem from="1602681164935" duration="13104000" />
+      <workItem from="1602694684210" duration="89000" />
+      <workItem from="1602768848454" duration="6748000" />
+      <workItem from="1602855805543" duration="6050000" />
+      <workItem from="1602941108521" duration="7982000" />
+      <workItem from="1603026151515" duration="2101000" />
+      <workItem from="1603114242943" duration="7541000" />
+      <workItem from="1603198422074" duration="6248000" />
+      <workItem from="1603208613255" duration="13000" />
+      <workItem from="1603372242348" duration="5943000" />
+      <workItem from="1603462867970" duration="5769000" />
+      <workItem from="1603470199770" duration="169000" />
+      <workItem from="1603544866326" duration="637000" />
+      <workItem from="1603602069235" duration="10587000" />
+      <workItem from="1603719359653" duration="8974000" />
+      <workItem from="1603806755966" duration="1348000" />
+      <workItem from="1603814480949" duration="2417000" />
+      <workItem from="1603980316231" duration="5394000" />
+      <workItem from="1604152928383" duration="5918000" />
+      <workItem from="1604676557827" duration="2871000" />
+      <workItem from="1604679560393" duration="3687000" />
+      <workItem from="1604761828159" duration="4390000" />
+      <workItem from="1604912553317" duration="13596000" />
+      <workItem from="1604935283644" duration="2600000" />
+      <workItem from="1605021858344" duration="1479000" />
+      <workItem from="1605023505337" duration="2996000" />
+      <workItem from="1605098797501" duration="1275000" />
+      <workItem from="1605100392319" duration="6928000" />
+      <workItem from="1605184971706" duration="3020000" />
+      <workItem from="1605188279847" duration="215000" />
+      <workItem from="1605271420034" duration="5615000" />
+      <workItem from="1605283172387" duration="2819000" />
+      <workItem from="1605502060930" duration="17102000" />
+      <workItem from="1605618320856" duration="4879000" />
+      <workItem from="1605628353468" duration="3704000" />
+      <workItem from="1605704397398" duration="10356000" />
+      <workItem from="1605793034076" duration="7818000" />
+      <workItem from="1605806210802" duration="84000" />
+      <workItem from="1605963336805" duration="873000" />
+      <workItem from="1606050417798" duration="598000" />
+      <workItem from="1606124777221" duration="10292000" />
+      <workItem from="1606482123010" duration="7382000" />
+      <workItem from="1606569226840" duration="3518000" />
+      <workItem from="1606659994498" duration="7164000" />
+      <workItem from="1606740664437" duration="5700000" />
+      <workItem from="1606915007765" duration="8851000" />
+      <workItem from="1607001628971" duration="3249000" />
+      <workItem from="1607173896109" duration="1098000" />
+      <workItem from="1607526284140" duration="15000" />
+      <workItem from="1607603095096" duration="4786000" />
+      <workItem from="1607962056873" duration="36000" />
+      <workItem from="1607962159219" duration="87000" />
+      <workItem from="1607962534972" duration="351000" />
+      <workItem from="1608037783550" duration="3722000" />
+      <workItem from="1608041570969" duration="1307000" />
+      <workItem from="1608122784915" duration="134000" />
+      <workItem from="1608122940710" duration="27000" />
+      <workItem from="1608136740564" duration="321000" />
+      <workItem from="1608137338911" duration="141000" />
+      <workItem from="1608212370092" duration="4204000" />
+      <workItem from="1608216927023" duration="128000" />
+      <workItem from="1608217565725" duration="56000" />
+      <workItem from="1608217682546" duration="475000" />
+      <workItem from="1608218670271" duration="210000" />
+      <workItem from="1608220277526" duration="148000" />
+      <workItem from="1608221581085" duration="51000" />
+      <workItem from="1608300671093" duration="4369000" />
+      <workItem from="1608310331020" duration="118000" />
+      <workItem from="1608383123299" duration="2098000" />
+      <workItem from="1608468983949" duration="7272000" />
+      <workItem from="1608480592963" duration="1205000" />
+    </task>
+    <task id="LOCAL-00001" summary="第二次提交   完成登录逻辑">
+      <created>1605719802525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605719802525</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第二次提交   完成登录逻辑">
+      <created>1605719821889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605719821889</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第二次提交   完成登录逻辑">
+      <created>1605719833173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605719833173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第二次提交   完成登录逻辑">
+      <created>1605719913975</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605719913975</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第三次提交  2020/11/20  完成注册接口">
+      <created>1605806256994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605806256994</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第四次提交  2020/11/28  完成首页轮播图和首页菜品的上传修改 查看接口">
+      <created>1606495166046</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606495166046</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第五次提交  2020/11/30  完成收货地址以及用户的一些信息和商品的相关接口">
+      <created>1606746747233</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606746747233</updated>
+    </task>
+    <task id="LOCAL-00008" summary="第六次提交  2020/12/10  完成日志和异常的配置，但是异常还有待完善。继续加油">
+      <created>1607609946703</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607609946704</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新建项目第一次提交  第一个版本" />
+    <MESSAGE value="第二次提交   完成登录逻辑" />
+    <MESSAGE value="第三次提交  2020/11/20  完成注册接口" />
+    <MESSAGE value="第四次提交  2020/11/28  完成首页轮播图和首页菜品的上传修改 查看接口" />
+    <MESSAGE value="第五次提交  2020/11/30  完成收货地址以及用户的一些信息和商品的相关接口" />
+    <MESSAGE value="第六次提交  2020/12/10  完成日志和异常的配置，但是异常还有待完善。继续加油" />
+    <option name="LAST_COMMIT_MESSAGE" value="第六次提交  2020/12/10  完成日志和异常的配置，但是异常还有待完善。继续加油" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="279" y="0" width="735" height="760" key="#DmApplication" timestamp="1608041044328">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="279" y="0" width="735" height="760" key="#DmApplication/0.0.1280.760@0.0.1280.760" timestamp="1608041044328" />
+    <state x="504" y="256" key="#Notifications" timestamp="1605719323900">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="504" y="256" key="#Notifications/0.0.1280.760@0.0.1280.760" timestamp="1605719323900" />
+    <state x="121" y="0" key="#Project_Structure" timestamp="1607526295745">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.760@0.0.1280.760" timestamp="1607526295745" />
+    <state x="99" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608220323371">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="99" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.760@0.0.1280.760" timestamp="1608220323371" />
+    <state x="362" y="181" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606742740059">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="362" y="181" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.760@0.0.1280.760" timestamp="1606742740059" />
+    <state x="425" y="86" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602606398739">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="425" y="86" key="#com.intellij.ide.macro.MacrosDialog/0.0.1280.760@0.0.1280.760" timestamp="1602606398739" />
+    <state x="446" y="81" key="#com.intellij.ide.util.MemberChooser" timestamp="1606916797562">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="446" y="81" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1606916797562" />
+    <state x="371" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608214510739">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="371" y="170" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.760@0.0.1280.760" timestamp="1608214510739" />
+    <state x="262" y="58" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1602682516567">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="262" y="58" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.760@0.0.1280.760" timestamp="1602682516567" />
+    <state x="263" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604920500642">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="263" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.760@0.0.1280.760" timestamp="1604920500642" />
+    <state x="372" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605793612623">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="372" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.760@0.0.1280.760" timestamp="1605793612623" />
+    <state x="422" y="136" key="FileChooserDialogImpl" timestamp="1607609883649">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="422" y="136" key="FileChooserDialogImpl/0.0.1280.760@0.0.1280.760" timestamp="1607609883649" />
+    <state x="450" y="313" key="Github.CreateGistDialog" timestamp="1607608879656">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="450" y="313" key="Github.CreateGistDialog/0.0.1280.760@0.0.1280.760" timestamp="1607608879656" />
+    <state x="504" y="291" width="262" height="295" key="Github.ShareDialog" timestamp="1605284763476">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="504" y="291" width="262" height="295" key="Github.ShareDialog/0.0.1280.760@0.0.1280.760" timestamp="1605284763476" />
+    <state x="456" y="91" key="Github.UntrackedFilesDialog" timestamp="1605284772176">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="456" y="91" key="Github.UntrackedFilesDialog/0.0.1280.760@0.0.1280.760" timestamp="1605284772176" />
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom" timestamp="1608479385397">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1608479385397" />
+    <state width="1238" height="186" key="GridCell.Tab.0.center" timestamp="1608479385397">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1608479385397" />
+    <state width="1238" height="186" key="GridCell.Tab.0.left" timestamp="1608479385397">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1608479385397" />
+    <state width="1238" height="186" key="GridCell.Tab.0.right" timestamp="1608479385397">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="186" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1608479385397" />
+    <state width="1238" height="235" key="GridCell.Tab.1.bottom" timestamp="1606669389671">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1606669389671" />
+    <state width="1238" height="235" key="GridCell.Tab.1.center" timestamp="1606669389671">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1606669389671" />
+    <state width="1238" height="235" key="GridCell.Tab.1.left" timestamp="1606669389671">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1606669389671" />
+    <state width="1238" height="235" key="GridCell.Tab.1.right" timestamp="1606669389671">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="235" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1606669389671" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1608216819384">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.760@0.0.1280.760" timestamp="1608216819384" />
+    <state x="229" y="127" key="Vcs.Push.Dialog.v2" timestamp="1607609966820">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="229" y="127" key="Vcs.Push.Dialog.v2/0.0.1280.760@0.0.1280.760" timestamp="1607609966820" />
+    <state x="232" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604928779741">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="232" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.760@0.0.1280.760" timestamp="1604928779741" />
+    <state x="341" y="87" width="596" height="584" key="find.popup" timestamp="1606919429927">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="341" y="87" width="596" height="584" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1606919429927" />
+    <state x="426" y="181" key="git4idea.merge.GitPullDialog" timestamp="1605719598697">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="426" y="181" key="git4idea.merge.GitPullDialog/0.0.1280.760@0.0.1280.760" timestamp="1605719598697" />
+    <state x="6" y="0" key="new project wizard" timestamp="1608469110191">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="6" y="0" key="new project wizard/0.0.1280.760@0.0.1280.760" timestamp="1608469110191" />
+    <state x="302" y="177" width="672" height="677" key="run.anything.popup" timestamp="1606918953746">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="302" y="177" width="672" height="677" key="run.anything.popup/0.0.1280.760@0.0.1280.760" timestamp="1606918953746" />
+    <state x="341" y="120" width="672" height="678" key="search.everywhere.popup" timestamp="1606918400580">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="341" y="120" width="672" height="678" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1606918400580" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>54</line>
+          <properties class="org.apache.shiro.subject.SimplePrincipalCollection" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>109</line>
+          <properties class="org.apache.shiro.subject.SimplePrincipalCollection" method="addAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>110</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>114</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/subject/SimplePrincipalCollection.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.shiro/shiro-core/1.6.0/3af8b56254dc058bb13f20a403a063fedd8d4483/shiro-core-1.6.0-sources.jar!/org/apache/shiro/session/mgt/DefaultSessionContext.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

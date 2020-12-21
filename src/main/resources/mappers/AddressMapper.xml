@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.eat.dao.AddressMapper">
+    <cache type="com.eat.util.RedisCache"></cache>
+
+    <!--添加收货地址 -->
+    <insert id="addAddress">
+    INSERT INTO eat.address
+    ( address_text, address_phone, adderss_person, id)
+    VALUES (#{address_text}, #{address_phone},#{adderss_person},#{id})
+    </insert>
+
+    <!--修改收货地址 -->
+    <update id="updateAddress">
+    UPDATE eat.address
+       <set>
+           <trim prefixOverrides="," prefix="" suffixOverrides="," suffix="">
+               <if test="address_text!= null and address_text != '' ">
+                   address_text = #{address_text},
+               </if>
+               <if test="address_phone!= null and address_phone != '' ">
+                   address_phone = #{address_phone},
+               </if>
+               <if test="adderss_person!= null and adderss_person != '' ">
+                   adderss_person = #{adderss_person},
+               </if>
+           </trim>
+           WHERE address_id = #{address_id}
+       </set>
+    </update>
+
+    <!--删除收获地址 -->
+    <delete id="deleteAddress">
+      delete from eat.address where address_id = #{address_id}
+    </delete>
+
+    <!--查询收货地址 -->
+    <select id="selectAddress" resultType="com.eat.entity.Address">
+        select * from eat.address where id = #{id}
+    </select>
+
+</mapper>
