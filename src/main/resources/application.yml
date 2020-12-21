@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    include: wx
+    active: dev
+
+
+
+mybatis:
+  mapper-locations: classpath:mappers/*Mapper.xml
