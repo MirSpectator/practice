@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="11ca7f29-e45a-496d-93e6-bbd0eb106548" name="Default Changelist" comment="" />
+    <list default="true" id="11ca7f29-e45a-496d-93e6-bbd0eb106548" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/money/entity/Authentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/money/entity/OperationLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/money/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/money/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/money/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/money/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/money/entity/AccountLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/money/entity/AccountLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/money/entity/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/money/entity/Rate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/money/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/money/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/money/server/UserServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/money/server/UserServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/money/server/impl/UserServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/money/server/impl/UserServerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/omney/query/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/omney/query/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,18 +126,30 @@
       <workItem from="1608469114488" duration="12159000" />
       <workItem from="1608481897712" duration="255000" />
       <workItem from="1608534761748" duration="599000" />
-      <workItem from="1608546610352" duration="593000" />
+      <workItem from="1608546610352" duration="1107000" />
+      <workItem from="1608548666203" duration="1677000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1608479491018">
+    <state x="447" y="65" key="#com.intellij.ide.util.MemberChooser" timestamp="1608550165824">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state x="447" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1608479491018" />
+    <state x="447" y="65" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1608550165824" />
     <state x="422" y="136" key="FileChooserDialogImpl" timestamp="1608546628953">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
@@ -116,38 +158,38 @@
       <screen x="0" y="0" width="1280" height="760" />
     </state>
     <state x="455" y="282" key="Github.CreateGistDialog/0.0.1280.760@0.0.1280.760" timestamp="1608481645867" />
-    <state width="1224" height="187" key="GridCell.Tab.0.bottom" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.0.bottom" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
-    <state width="1224" height="187" key="GridCell.Tab.0.center" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
+    <state width="1224" height="187" key="GridCell.Tab.0.center" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
-    <state width="1224" height="187" key="GridCell.Tab.0.left" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
+    <state width="1224" height="187" key="GridCell.Tab.0.left" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
-    <state width="1224" height="187" key="GridCell.Tab.0.right" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
+    <state width="1224" height="187" key="GridCell.Tab.0.right" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
-    <state width="1224" height="187" key="GridCell.Tab.1.bottom" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
+    <state width="1224" height="187" key="GridCell.Tab.1.bottom" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
-    <state width="1224" height="187" key="GridCell.Tab.1.center" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
+    <state width="1224" height="187" key="GridCell.Tab.1.center" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
-    <state width="1224" height="187" key="GridCell.Tab.1.left" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
+    <state width="1224" height="187" key="GridCell.Tab.1.left" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
-    <state width="1224" height="187" key="GridCell.Tab.1.right" timestamp="1608482152552">
+    <state width="1224" height="187" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
+    <state width="1224" height="187" key="GridCell.Tab.1.right" timestamp="1608550347136">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
-    <state width="1224" height="187" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1608482152552" />
+    <state width="1224" height="187" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1608550347136" />
     <state x="143" y="25" key="SettingsEditor" timestamp="1608473469518">
       <screen x="0" y="0" width="1280" height="760" />
     </state>
