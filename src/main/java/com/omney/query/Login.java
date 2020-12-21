@@ -19,7 +19,6 @@ public class Login implements Serializable {
     private String phone;
     private String code;
 
-    private String number;
     private String pwd;
 
     @NonNull
@@ -28,10 +27,9 @@ public class Login implements Serializable {
     public Login() {
     }
 
-    public Login(String phone, String code, String number, String pwd, int type) {
+    public Login(String phone, String code, String pwd, int type) {
         this.phone = phone;
         this.code = code;
-        this.number = number;
         this.pwd = pwd;
         this.type = type;
     }
@@ -41,7 +39,6 @@ public class Login implements Serializable {
         return "Login{" +
                 "phone='" + phone + '\'' +
                 ", code='" + code + '\'' +
-                ", number='" + number + '\'' +
                 ", pwd='" + pwd + '\'' +
                 ", type=" + type +
                 '}';
@@ -61,14 +58,6 @@ public class Login implements Serializable {
 
     public void setCode(String code) {
         this.code = code;
-    }
-
-    public String getNumber() {
-        return number;
-    }
-
-    public void setNumber(String number) {
-        this.number = number;
     }
 
     public String getPwd() {

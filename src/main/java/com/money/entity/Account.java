@@ -1,6 +1,7 @@
 package com.money.entity;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @version V1.0
@@ -13,45 +14,51 @@ import java.io.Serializable;
 public class Account implements Serializable {
     private static final long serialVersionUID = -6049564307774430259L;
 
-    private int id;
-    private int user_id;
+    private int account_id;
+    private String phone;
     private String account_type;
     private Float account_money;
-    private int rate_id;
-
-    public Account(int id, int user_id, String account_type, Float account_money, int rate_id) {
-        this.id = id;
-        this.user_id = user_id;
-        this.account_type = account_type;
-        this.account_money = account_money;
-        this.rate_id = rate_id;
-    }
+    private Date update_time;
+    private Date create_time;
 
     @Override
     public String toString() {
         return "Account{" +
-                "id=" + id +
-                ", user_id=" + user_id +
+                "account_id=" + account_id +
+                ", phone='" + phone + '\'' +
                 ", account_type='" + account_type + '\'' +
                 ", account_money=" + account_money +
-                ", rate_id=" + rate_id +
+                ", update_time=" + update_time +
+                ", create_time=" + create_time +
                 '}';
     }
 
-    public int getId() {
-        return id;
+    public Account() {
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public Account(int account_id, String phone, String account_type, Float account_money, Date update_time, Date create_time) {
+        this.account_id = account_id;
+        this.phone = phone;
+        this.account_type = account_type;
+        this.account_money = account_money;
+        this.update_time = update_time;
+        this.create_time = create_time;
     }
 
-    public int getUser_id() {
-        return user_id;
+    public int getAccount_id() {
+        return account_id;
     }
 
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setAccount_id(int account_id) {
+        this.account_id = account_id;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getAccount_type() {
@@ -70,11 +77,19 @@ public class Account implements Serializable {
         this.account_money = account_money;
     }
 
-    public int getRate_id() {
-        return rate_id;
+    public Date getUpdate_time() {
+        return update_time;
     }
 
-    public void setRate_id(int rate_id) {
-        this.rate_id = rate_id;
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
+    }
+
+    public Date getCreate_time() {
+        return create_time;
+    }
+
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
     }
 }

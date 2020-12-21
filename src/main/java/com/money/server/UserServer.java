@@ -18,8 +18,6 @@ public interface UserServer {
 
     RspMsg getUserByPhone(@NonNull String phone) throws Exception;
 
-    RspMsg getUserByNumber(@NonNull String number) throws Exception;
-
     RspMsg Login(Login login) throws Exception;
 
 }

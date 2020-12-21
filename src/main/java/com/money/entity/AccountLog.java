@@ -14,49 +14,43 @@ import java.util.Date;
 public class AccountLog implements Serializable {
     private static final long serialVersionUID = 6826238208879916626L;
 
-    private int id;
-    private int user_id;
+    private int account_log_id;
     private int account_id;
     private Float money;
-    private String type;
-    private Date time;
+    private String account_log_type;
+    private Date create_time;
+    private Date update_time;
 
-
-    public AccountLog(int id, int user_id, int account_id, Float money, String type, Date time) {
-        this.id = id;
-        this.user_id = user_id;
+    public AccountLog(int account_log_id, int account_id, Float money, String account_log_type, Date create_time, Date update_time) {
+        this.account_log_id = account_log_id;
         this.account_id = account_id;
         this.money = money;
-        this.type = type;
-        this.time = time;
+        this.account_log_type = account_log_type;
+        this.create_time = create_time;
+        this.update_time = update_time;
+    }
+
+    public AccountLog() {
     }
 
     @Override
     public String toString() {
-        return "Account{" +
-                "id=" + id +
-                ", user_id=" + user_id +
+        return "AccountLog{" +
+                "account_log_id=" + account_log_id +
                 ", account_id=" + account_id +
                 ", money=" + money +
-                ", type='" + type + '\'' +
-                ", time=" + time +
+                ", account_log_type='" + account_log_type + '\'' +
+                ", create_time=" + create_time +
+                ", update_time=" + update_time +
                 '}';
     }
 
-    public int getId() {
-        return id;
+    public int getAccount_log_id() {
+        return account_log_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public int getUser_id() {
-        return user_id;
-    }
-
-    public void setUser_id(int user_id) {
-        this.user_id = user_id;
+    public void setAccount_log_id(int account_log_id) {
+        this.account_log_id = account_log_id;
     }
 
     public int getAccount_id() {
@@ -75,19 +69,27 @@ public class AccountLog implements Serializable {
         this.money = money;
     }
 
-    public String getType() {
-        return type;
+    public String getAccount_log_type() {
+        return account_log_type;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setAccount_log_type(String account_log_type) {
+        this.account_log_type = account_log_type;
     }
 
-    public Date getTime() {
-        return time;
+    public Date getCreate_time() {
+        return create_time;
     }
 
-    public void setTime(Date time) {
-        this.time = time;
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
+    }
+
+    public Date getUpdate_time() {
+        return update_time;
+    }
+
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
     }
 }

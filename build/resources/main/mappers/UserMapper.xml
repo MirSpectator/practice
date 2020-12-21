@@ -8,8 +8,5 @@
     <select id="getUserByPhone" resultType="com.money.entity.User">
         select  * from user where  phone = #{phone}
     </select>
-
-    <select id="getUserByNumber" resultType="com.money.entity.User">
-        select  * from user where  number = #{number}
-    </select>
+    
 </mapper>

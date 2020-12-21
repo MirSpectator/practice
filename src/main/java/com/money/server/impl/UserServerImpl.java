@@ -61,26 +61,16 @@ public class UserServerImpl implements UserServer {
         return RspMsg.Success(user);
     }
 
-    @Override
-    public RspMsg getUserByNumber(String number) throws Exception{
-        User user = this.userMapper.getUserByNumber(number);
-
-        if(user==null){
-            return RspMsg.crmoneyeRspMsg("0000", "测试数据库查询失败");
-        }
-
-        return RspMsg.Success(user);
-    }
 
     @Override
     public RspMsg Login(Login login) throws Exception{
-
-        User user =null;
+        User user =this.userMapper.getUserByPhone(login.getPhone());
         log.info("type-------"+login.getType());
+        //验证密码的方式
         if(login.getType()==0){
-           user = this.userMapper.getUserByNumber(login.getNumber());
+
         }else {
-            user = this.userMapper.getUserByPhone(login.getPhone());
+
         }
         if(user==null)
             return RspMsg.crmoneyeRspMeg("没有此用户");

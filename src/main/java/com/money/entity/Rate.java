@@ -14,34 +14,37 @@ import java.util.Date;
 public class Rate implements Serializable {
     private static final long serialVersionUID = -3940937625231270705L;
 
-    private int id;
+    private int rate_id;
     private Float rate;
-    private String type;
-    private Date time;
+    private String rate_type;
+    private Date create_time;
 
-    public Rate(int id, Float rate, String type, Date time) {
-        this.id = id;
+    public Rate() {
+    }
+
+    public Rate(int rate_id, Float rate, String rate_type, Date create_time) {
+        this.rate_id = rate_id;
         this.rate = rate;
-        this.type = type;
-        this.time = time;
+        this.rate_type = rate_type;
+        this.create_time = create_time;
     }
 
     @Override
     public String toString() {
         return "Rate{" +
-                "id=" + id +
+                "rate_id=" + rate_id +
                 ", rate=" + rate +
-                ", type='" + type + '\'' +
-                ", time=" + time +
+                ", rate_type='" + rate_type + '\'' +
+                ", create_time=" + create_time +
                 '}';
     }
 
-    public int getId() {
-        return id;
+    public int getRate_id() {
+        return rate_id;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setRate_id(int rate_id) {
+        this.rate_id = rate_id;
     }
 
     public Float getRate() {
@@ -52,19 +55,19 @@ public class Rate implements Serializable {
         this.rate = rate;
     }
 
-    public String getType() {
-        return type;
+    public String getRate_type() {
+        return rate_type;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setRate_type(String rate_type) {
+        this.rate_type = rate_type;
     }
 
-    public Date getTime() {
-        return time;
+    public Date getCreate_time() {
+        return create_time;
     }
 
-    public void setTime(Date time) {
-        this.time = time;
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
     }
 }

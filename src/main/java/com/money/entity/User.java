@@ -14,61 +14,58 @@ import java.util.Date;
 public class User implements Serializable {
     private static final long serialVersionUID = -5183076979091357718L;
 
-    private int id;
+    private String phone;
     private String name;
-    private String number;
     private int age;
     private String sex;
     private String pwd;
-    private String phone;
     private String head_img;
-    private String identity;
-    private int autonym;
     private int pay_pwd;
-    private Date creat_time;
+    private String authentication_type;
+    private String id_card;
+    private Date create_time;
+    private Date update_time;
 
     public User() {
     }
 
-    public User(int id, String name, String number, int age, String sex, String pwd, String phone, String head_img, String identity, int autonym, int pay_pwd, Date creat_time) {
-        this.id = id;
+    public User(String phone, String name, int age, String sex, String pwd, String head_img, int pay_pwd, String authentication_type, String id_card, Date create_time, Date update_time) {
+        this.phone = phone;
         this.name = name;
-        this.number = number;
         this.age = age;
         this.sex = sex;
         this.pwd = pwd;
-        this.phone = phone;
         this.head_img = head_img;
-        this.identity = identity;
-        this.autonym = autonym;
         this.pay_pwd = pay_pwd;
-        this.creat_time = creat_time;
+        this.authentication_type = authentication_type;
+        this.id_card = id_card;
+        this.create_time = create_time;
+        this.update_time = update_time;
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "phone='" + phone + '\'' +
                 ", name='" + name + '\'' +
-                ", number='" + number + '\'' +
                 ", age=" + age +
                 ", sex='" + sex + '\'' +
                 ", pwd='" + pwd + '\'' +
-                ", phone='" + phone + '\'' +
                 ", head_img='" + head_img + '\'' +
-                ", identity='" + identity + '\'' +
-                ", autonym=" + autonym +
                 ", pay_pwd=" + pay_pwd +
-                ", creat_time=" + creat_time +
+                ", authentication_type='" + authentication_type + '\'' +
+                ", id_card='" + id_card + '\'' +
+                ", create_time=" + create_time +
+                ", update_time=" + update_time +
                 '}';
     }
 
-    public int getId() {
-        return id;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
     public String getName() {
@@ -77,14 +74,6 @@ public class User implements Serializable {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getNumber() {
-        return number;
-    }
-
-    public void setNumber(String number) {
-        this.number = number;
     }
 
     public int getAge() {
@@ -111,36 +100,12 @@ public class User implements Serializable {
         this.pwd = pwd;
     }
 
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     public String getHead_img() {
         return head_img;
     }
 
     public void setHead_img(String head_img) {
         this.head_img = head_img;
-    }
-
-    public String getIdentity() {
-        return identity;
-    }
-
-    public void setIdentity(String identity) {
-        this.identity = identity;
-    }
-
-    public int getAutonym() {
-        return autonym;
-    }
-
-    public void setAutonym(int autonym) {
-        this.autonym = autonym;
     }
 
     public int getPay_pwd() {
@@ -151,11 +116,35 @@ public class User implements Serializable {
         this.pay_pwd = pay_pwd;
     }
 
-    public Date getCreat_time() {
-        return creat_time;
+    public String getAuthentication_type() {
+        return authentication_type;
     }
 
-    public void setCreat_time(Date creat_time) {
-        this.creat_time = creat_time;
+    public void setAuthentication_type(String authentication_type) {
+        this.authentication_type = authentication_type;
+    }
+
+    public String getId_card() {
+        return id_card;
+    }
+
+    public void setId_card(String id_card) {
+        this.id_card = id_card;
+    }
+
+    public Date getCreate_time() {
+        return create_time;
+    }
+
+    public void setCreate_time(Date create_time) {
+        this.create_time = create_time;
+    }
+
+    public Date getUpdate_time() {
+        return update_time;
+    }
+
+    public void setUpdate_time(Date update_time) {
+        this.update_time = update_time;
     }
 }

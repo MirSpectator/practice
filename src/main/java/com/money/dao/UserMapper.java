@@ -21,7 +21,6 @@ public interface UserMapper {
      //通过手机号查询
      User getUserByPhone(@NonNull String Phone);
 
-     //通过账号查询
-     User getUserByNumber(@NonNull String Number);
+
 
 }
